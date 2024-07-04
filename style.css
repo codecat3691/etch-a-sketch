@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+button, label {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.color-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.color-input label {
+    margin-right: 10px;
+}
+
+.color-input input[type="color"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    appearance: none; /* Removes default styling */
+    -webkit-appearance: none; /* For older versions of Safari */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px; /* Adjusted total width of the grid container */
+    height: 600px; /* Adjusted total height of the grid container */
+    gap: 2px;
+}
+
+.container div {
+    flex: 1 0 auto;
+    background-color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+#title {
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    /* Additional styles for the title */
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase; /* Optional: Transform text to uppercase */
+    letter-spacing: 2px; /* Optional: Adjust letter spacing for a stylish look */
+}
+
+label {
+    font-size: 32px;
+}
+
+
+
+
+
+
